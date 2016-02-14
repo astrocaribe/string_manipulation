@@ -1,0 +1,8 @@
+.cache/
+notebooks/.ipynb_checkpoints
+notebooks/Evermind_Python_old.ipynb
+scripts/.cache
+scripts/test/__pycache__
+scripts/.cache
+
+*.pyc
