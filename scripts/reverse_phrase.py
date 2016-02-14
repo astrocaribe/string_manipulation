@@ -61,7 +61,11 @@ def main():
         valid_input = False
 
         while not valid_input:
-            user_input = raw_input('Would you like to enter another phrase? [y/n] ' )
+            if is_python3( version_info[0] ):
+                user_input = input('Would you like to enter another phrase? [y/n] ' )
+            else:
+                user_input = raw_input('Would you like to enter another phrase? [y/n] ' )
+
             if ( user_input == 'y' or user_input == 'n'):
                 valid_input = True
                 print()

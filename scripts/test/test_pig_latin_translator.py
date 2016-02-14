@@ -71,3 +71,6 @@ def test_unpunctuated_word():
     pig_word, punc = pig_latin_translator.split_punctuation( 'foo' )
 
     assert pig_word == 'foo' and punc == ''
+
+def test_main():
+    pass
