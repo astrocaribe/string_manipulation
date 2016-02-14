@@ -6,3 +6,4 @@ scripts/test/__pycache__
 scripts/.cache
 
 *.pyc
+notebooks/Evermind_Javascript.ipynb
