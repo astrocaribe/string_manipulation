@@ -7,8 +7,8 @@ python:
   - "3.4"
   - "3.5"
 
-  # Command to install dependencies
-  install: "pip install -r requirements.txt"
+# Command to install dependencies
+install: "pip install -r requirements.txt"
 
-  # Connamd to run tests
-  script: py.test --verbose
+# Connamd to run tests
+script: py.test --verbose
