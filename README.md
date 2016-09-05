@@ -1,4 +1,4 @@
-# string_manipulation
+# string_manipulation  ![Travis CI](https://travis-ci.org/astrocaribe/string_manipulation.svg)
 
 This is a repo for two string manipulation tasks, a phrase reverser
 `reverse_phrase.py` and a simple pig latin translator `pig_latin_translator.py`.
