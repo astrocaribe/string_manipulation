@@ -32,7 +32,7 @@ import re
 # Check python version. Returns 'True' for Python3, else returns 'False'
 # for Python2
 def is_python3( version ):
-    return version > 2
+    return version == 3
 
 
 def apply_vowel_rule( word ):
