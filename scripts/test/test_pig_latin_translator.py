@@ -22,10 +22,10 @@ def teardown_function(function):
     pass
     # print ("teardown_function function:%s" % function.__name__)
 
-
-# Default python version is assumed to be 2
 def test_python3_version():
-    assert pig_latin_translator.is_python3( version_info[0] ) == False
+    version = 2
+
+    assert pig_latin_translator.is_python3( version ) == False
 
 def test_python2_version():
     version = 3
