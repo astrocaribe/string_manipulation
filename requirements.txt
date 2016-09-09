@@ -1,16 +1,7 @@
-astropy==1.1.post2
 cycler==0.9.0
 ez-setup==0.9
-flake8==2.5.4
-functools32==3.2.3.post2
-matplotlib==1.5.0
 mccabe==0.4.0
-numpy==1.10.2
-pep8==1.7.0
-pyfits==3.3
-pyflakes==1.0.0
 pyparsing==2.0.6
 python-dateutil==2.4.2
 pytz==2015.7
-pywcsgrid2==1.0b3
 six==1.10.0
